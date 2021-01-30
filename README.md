@@ -7,3 +7,14 @@ composer config repositories.repo-name git git@github.com:dianabotean/redirectto
 composer require diana/redirecttosku:dev-main --no-update
 bin/magento setup:upgrade
 ```
+
+## Update the module
+```
+composer update diana/redirecttosku
+```
+
+## Uninstall the module
+```
+composer remove diana/redirecttosku
+bin/magento setup:upgrade
+```
