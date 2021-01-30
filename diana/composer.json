@@ -1,5 +1,5 @@
 {
-  "name": "diana/redirecttoproduct",
+  "name": "diana/redirecttosku",
   "description": "Magento 2 redirect to product page on sku search",
   "type": "magento2-module",
   "version": "1.0.0",
