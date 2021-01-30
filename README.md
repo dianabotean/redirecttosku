@@ -7,14 +7,3 @@ composer config repositories.repo-name git git@github.com:dianabotean/redirectto
 composer require diana/redirecttosku:dev-main --no-update
 bin/magento setup:upgrade
 ```
-
-## Update module
-```
-composer update evozon/module-hidelimitedstockqty`
-php bin/magento cache:flush
-```
-
-## Remove module
-```
-composer remove evozon/module-hidelimitedstockqty
-```
