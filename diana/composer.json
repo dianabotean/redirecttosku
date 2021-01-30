@@ -8,10 +8,10 @@
   "minimum-stability": "stable",
   "autoload": {
     "files": [
-      "Diana/SkuSearch/registration.php"
+      "Diana/module-skusearch/registration.php"
     ],
     "psr-4": {
-      "Diana\\SkuSearch\\": ""
+      "Diana\\SkuSearch\\": "Diana/module-skusearch"
     }
   }
 }
