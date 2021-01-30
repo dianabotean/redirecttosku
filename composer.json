@@ -1,5 +1,5 @@
 {
-  "name": "diana/redirecttosku",
+  "name": "diana/module-skusearch",
   "description": "Magento 2 redirect to product page on sku search",
   "type": "magento2-module",
   "version": "1.0.0",
@@ -8,10 +8,10 @@
   "minimum-stability": "stable",
   "autoload": {
     "files": [
-      "Diana/module-skusearch/registration.php"
+      "registration.php"
     ],
     "psr-4": {
-      "Diana\\SkuSearch\\": "Diana/module-skusearch"
+      "Diana\\SkuSearch\\": ""
     }
   }
 }
