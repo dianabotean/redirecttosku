@@ -4,7 +4,7 @@ This module adds the functionality that allows the redirection to the product de
 ## Install
 ```
 composer config repositories.repo-name git git@github.com:dianabotean/redirecttosku
-composer require diana/redirecttosku:dev-main --no-update
+composer require diana/redirecttosku
 bin/magento setup:upgrade
 ```
 
