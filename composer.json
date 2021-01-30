@@ -1,6 +1,6 @@
 {
-  "name": "diana/module-skusearch",
-  "description": "Magento 2 redirect to product page on sku search",
+  "name": "diana/redirecttosku",
+  "description": "Magento 2 module used to redirect to product page when an SKU is used in the search box",
   "type": "magento2-module",
   "version": "1.0.0",
   "require": {
